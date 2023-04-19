@@ -3,6 +3,6 @@
 ICloud Login Clone, use of POST method for credentials inputs.
 
 INFOS :
-* <name> attribute in <input> is mandatory for credentials display
+* `name` attribute is mandatory in `<input>` for correct credentials display
 
 Created by MadHippo
