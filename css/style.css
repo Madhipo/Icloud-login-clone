@@ -144,6 +144,11 @@ body{
     border-radius: 30px;
 }
 
+.card-2 a{
+    text-decoration: none;
+    color: #0070c9;
+}
+
 .footer-part-1,.footer-part-2{
     font-size: 11px;
     color: #8a8a8a;
@@ -187,7 +192,7 @@ body{
     color: black;
 }
 
-.login-form{
+.form{
     margin-top: 5px;
 }
 
