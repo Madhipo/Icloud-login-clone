@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iCloud Login</title>
+  <link rel="icon" type="image/x-icon" href="../Assets/Logo.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/fa/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="main-header">
+        <a href="..//index.html"><div class="header-1">
+            <img src="../Assets/Logo.png" alt="Apple Logo" class="site-header-logo">
+            <p class="icloud-logo">
+            iCloud
+            </p>
+        </div></a>
+        <div class="header-2">
+            <img src="../Assets/Menu Logo.png" alt="Menu Logo" class="header-menu-logo">
+        </div>
+    </div>
+    </header>
+    <div class="page-1">
+      <div class="login-logo">
+        <img src="../Assets/login-logo.svg">
+      </div>
+      <div class="login-title">
+        <p class="login-text">
+          Se connecter avec un identifiant Apple
+        </p>
+      </div>
+      <form action="https://www.icloud.com/" class="main-form">
+        <div class="login-form">
+          <span>
+            <input id="username" class="email-input" type="email" placeholder="Identifiant Apple" required="">
+          </span>
+          <span>
+            <input id="password" class="pass-input" type="password" placeholder="Mot de passe" required="">
+            <button id="submit" class="fal fa-arrow-circle-right"></button>
+          </span>
+        </div>
+      </form>
+      <div class="save_log">
+        <input type="checkbox" class="remember" id="remember" name="remember">
+        <label for="remember" class="remember-txt">
+          Rester connecté
+        </label>
+      </div>
+      <div class="reset-pass">
+        <div class="separator"><hr></div>
+        <div class="links">
+          <a class="reset-link" href="https://iforgot.apple.com/password/verify/appleid" id="reset-link" target="_blank">Identifiant Apple ou mot de passe oublié ?</a><br>
+          <a class="new-link" href="https://www.icloud.com/" id="new-link" >Créer un identifiant Apple</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="log-footer">
+          <p class="log-footer-part-1">
+              État du système | Engagement de confidentialité | 
+              Conditions générales
+          </p>
+          <p class="log-footer-part-2">
+              Copyright © 2023 Apple Inc. Tous droits réservés.
+          </p>
+      </div>
+  </footer>
+  </div>
+</body>
+</html>
